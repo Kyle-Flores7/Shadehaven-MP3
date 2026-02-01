@@ -1,0 +1,21 @@
+{
+  "name": "shadehaven-mp3",
+  "version": "1.0.0",
+  "description": "Project Name: Shadehaven Lore API (Real-Time Bestiary & Lore Database)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyle-Flores7/Shadehaven-MP3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kyle-Flores7/Shadehaven-MP3/issues"
+  },
+  "homepage": "https://github.com/Kyle-Flores7/Shadehaven-MP3#readme"
+}

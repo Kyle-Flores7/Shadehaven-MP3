@@ -1,13 +1,15 @@
 require('dotenv').config();
 const app = require('./app');
 const connectDB = require('./config/db');
+const { seedDatabaseIfEmpty } = require('./services/externalApiService');
 
 const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
   try {
     await connectDB();
-    // TODO: seeding logic will go here later
+
+    await seedDatabaseIfEmpty();
 
     app.listen(PORT, () => {
       console.log(`Server listening on port ${PORT}`);
